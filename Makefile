@@ -1,6 +1,6 @@
 CC=gcc
-CPPFLAGS=-Wall -Wextra -std=c++11
-CPPLIBS=-L./raylib/lib -Wl,-rpath ./raylib/lib/ -lraylib -lm
+CPPFLAGS=-Wall -Wextra -std=c++17
+CPPLIBS=-L./raylib-macos/lib -Wl,-rpath ./raylib-macos/lib/ -lraylib -lm
 
 all: aerosim
 
